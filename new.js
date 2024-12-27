@@ -16,7 +16,7 @@ let weather = {
         document.querySelector(".degrees").innerText = Math.round(temp) +"°C";
         document.querySelector(".mintemp").innerText =  "Min :" +temp_min +"°C";
         document.querySelector(".maxtemp").innerText = "Max :" + temp_max +"°C";
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?"+ description + "')"
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?"+ cloudy + "')"
 
     },
 
